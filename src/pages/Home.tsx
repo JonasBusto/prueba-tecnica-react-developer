@@ -7,7 +7,7 @@ export function Home() {
       <Link className='col-12 col-sm-6' to='/series'>
         <div className='d-flex flex-column'>
           <div className='d-flex justify-content-center align-items-center'>
-            <img className='w-100' src='/assets/placeholder.png' alt='' />
+            <img className='w-100' src='/public/placeholder.png' alt='' />
           </div>
           <p>Popular series</p>
         </div>
@@ -15,7 +15,7 @@ export function Home() {
       <Link className='col-12 col-sm-6' to='/movies'>
         <div className='d-flex flex-column'>
           <div className='d-flex justify-content-center align-items-center'>
-            <img className='w-100' src='/assets/placeholder.png' alt='' />
+            <img className='w-100' src='/public/placeholder.png' alt='' />
           </div>
           <p>Popular movies</p>
         </div>

@@ -28,13 +28,13 @@ export function Footer() {
         <div className='row m-0'>
           <div className='col-12 col-md-6 footer-contain-social px-5 px-md-4 px-lg-3'>
             <a href='' target='_blank'>
-              <img src='/assets/social/facebook-white.svg' alt='' />
+              <img src='/public/social/facebook-white.svg' alt='' />
             </a>
             <a href='' target='_blank'>
-              <img src='/assets/social/twitter-white.svg' alt='' />
+              <img src='/public/social/twitter-white.svg' alt='' />
             </a>
             <a href='' target='_blank'>
-              <img src='/assets/social/instagram-white.svg' alt='' />
+              <img src='/public/social/instagram-white.svg' alt='' />
             </a>
           </div>
           <div className='col-12 col-md-6 footer-contain-store mt-5 mt-md-0  px-5 px-md-4 px-lg-3'>
@@ -44,21 +44,21 @@ export function Footer() {
                 href=''
                 target='_blank'
               >
-                <img src='/assets/store/app-store.svg' alt='' />
+                <img src='/public/store/app-store.svg' alt='' />
               </a>
               <a
                 className='col-12 col-sm-4 p-0 d-flex justify-content-center mb-3 mb-sm-0 d-sm-block'
                 href=''
                 target='_blank'
               >
-                <img src='/assets/store/play-store.svg' alt='' />
+                <img src='/public/store/play-store.svg' alt='' />
               </a>
               <a
                 className='col-12 col-sm-4 p-0 d-flex justify-content-center mb-3 mb-sm-0 d-sm-block'
                 href=''
                 target='_blank'
               >
-                <img src='/assets/store/windows-store.svg' alt='' />
+                <img src='/public/store/windows-store.svg' alt='' />
               </a>
             </div>
           </div>

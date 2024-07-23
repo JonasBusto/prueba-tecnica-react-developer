@@ -75,6 +75,12 @@
   flex-wrap: wrap;
 }
 
-.p-dataview-content {
+.p-dataview-content,
+.p-paginator {
   background-color: transparent;
+}
+
+.p-paginator {
+  border: 0;
+  margin-bottom: 3rem;
 }
