@@ -1,0 +1,12 @@
+.contain-card-home > a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.contain-card-home > a > div > div {
+  background-color: #1e1e1e;
+  height: 23rem;
+  object-fit: contain;
+}

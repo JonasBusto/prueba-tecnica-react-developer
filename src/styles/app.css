@@ -1,0 +1,12 @@
+body {
+  background-color: #eeeeee8e !important;
+}
+
+main {
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+.loading-item {
+  width: 80vw;
+}
