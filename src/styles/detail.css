@@ -55,7 +55,6 @@
 
 .form-filter {
   padding-inline: 7%;
-  min-width: 1000px;
 }
 
 .modal-contain {
@@ -68,4 +67,14 @@
   border-radius: 0 !important;
   border: 0;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.p-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.p-dataview-content {
+  background-color: transparent;
 }

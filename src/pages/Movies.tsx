@@ -8,6 +8,8 @@ import { FormFilter } from '../components/items/FormFilter';
 import '../styles/detail.css';
 import { Load } from '../components/items/Load';
 import { Error } from '../components/items/Error';
+import { DataView } from 'primereact/dataview';
+import { MovieSerie as MovieSerieInterface } from '../interfaces/movieSerie';
 
 export function Movies() {
   const { movies } = useMovieSerieAction();
@@ -24,21 +26,23 @@ export function Movies() {
     return <Error />;
   }
 
+  const itemTemplate = (item: MovieSerieInterface) => {
+    return <MovieSerie key={item.title} serie={item} />;
+  };
+
   return (
     <div>
       <FormFilter
         handleChangeOrderTitle={handleChangeOrderTitle}
         handleChangeFilterSearch={handleChangeFilterSearch}
       />
-      {elementsFiltered.length === 0 ? (
-        <p>Sin Resultados</p>
-      ) : (
-        <div className='row m-0'>
-          {elementsFiltered.map((serie) => (
-            <MovieSerie key={serie.title} serie={serie} />
-          ))}
-        </div>
-      )}
+      <DataView
+        value={elementsFiltered}
+        itemTemplate={itemTemplate}
+        paginator
+        emptyMessage='Sin resultados'
+        rows={20}
+      />
     </div>
   );
 }

@@ -6,6 +6,7 @@ import { AppProvider } from './context/AppContext.tsx';
 import { Provider } from 'react-redux';
 import { store } from './store/index.ts';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'primereact/resources/themes/saga-blue/theme.css';
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
