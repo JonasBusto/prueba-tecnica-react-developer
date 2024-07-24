@@ -9,15 +9,15 @@ export function Footer() {
           <div className='col-12 px-5 px-md-4 px-lg-3'>
             <Link to='/'>Home</Link>
             <span>|</span>
-            <Link to='/'>Terms and Conditions</Link>
+            <Link to='/terms'>Terms and Conditions</Link>
             <span>|</span>
-            <Link to='/'>Privacy Policy</Link>
+            <Link to='/privacy'>Privacy Policy</Link>
             <span>|</span>
-            <Link to='/'>Collection Statement</Link>
+            <Link to='/collection'>Collection Statement</Link>
             <span>|</span>
-            <Link to='/'>Help</Link>
+            <Link to='/help'>Help</Link>
             <span>|</span>
-            <Link to='/'>Manage Account</Link>
+            <Link to='/account'>Manage Account</Link>
           </div>
         </div>
         <div className='row m-0'>
@@ -27,13 +27,13 @@ export function Footer() {
         </div>
         <div className='row m-0'>
           <div className='col-12 col-md-6 footer-contain-social px-5 px-md-4 px-lg-3'>
-            <a href='' target='_blank'>
+            <a href='https://www.facebook.com/' target='_blank'>
               <img src='/social/facebook-white.svg' alt='' />
             </a>
-            <a href='' target='_blank'>
+            <a href='https://x.com/' target='_blank'>
               <img src='/social/twitter-white.svg' alt='' />
             </a>
-            <a href='' target='_blank'>
+            <a href='https://www.instagram.com/' target='_blank'>
               <img src='/social/instagram-white.svg' alt='' />
             </a>
           </div>
@@ -41,21 +41,21 @@ export function Footer() {
             <div className='row m-0 d-flex justify-content-start justify-content-md-end'>
               <a
                 className='col-12 col-sm-4 p-0 d-flex justify-content-center mb-3 mb-sm-0 d-sm-block'
-                href=''
+                href='https://www.apple.com/la/app-store/'
                 target='_blank'
               >
                 <img src='/store/app-store.svg' alt='' />
               </a>
               <a
                 className='col-12 col-sm-4 p-0 d-flex justify-content-center mb-3 mb-sm-0 d-sm-block'
-                href=''
+                href='https://play.google.com/'
                 target='_blank'
               >
                 <img src='/store/play-store.svg' alt='' />
               </a>
               <a
                 className='col-12 col-sm-4 p-0 d-flex justify-content-center mb-3 mb-sm-0 d-sm-block'
-                href=''
+                href='https://www.microsoft.com/es-ad/store/b/home'
                 target='_blank'
               >
                 <img src='/store/windows-store.svg' alt='' />
