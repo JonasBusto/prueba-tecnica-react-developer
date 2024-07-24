@@ -113,6 +113,8 @@ Importante saber:
 
 # Sobre el proyecto
 
+**Link:** https://prueba-tecnica-react-developer-phi.vercel.app/
+
 - **¿Cómo decidió las opciones técnicas y arquitectónicas utilizadas como parte de su solución?**
   Utilice react con typescript por su robustez en cuanto a tipado, contrato de los objetos mediante interfaces, etc. Redux toolkit para estado global y custom hooks. Realice un filtrado que busca por año y por titulo, y tambien permite ordenar mediante el titulo las peliculas o series alfabeticamente (asc, desc o por defecto). Por otro lado, la paginación la hice usando react prime, por su simplicidad.
 
